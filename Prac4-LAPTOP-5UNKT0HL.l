@@ -4,7 +4,7 @@
 
 %%
 [0-9]+ {printf("This is an integer number: \n");}
-[0-9]*[.][0-9]+ {printf("This is an float number: \n");}
+[0-9]*.[0-9]+ {printf("This is an float number: \n");}
 .* {printf("This is an not a valid number : \n");}
 %%
 int main()

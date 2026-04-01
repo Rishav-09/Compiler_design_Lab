@@ -1,8 +1,6 @@
 %{
     #include<stdio.h>
     int t_line=0,t_space=0,t_metachar=0,t_char=0;
-
-
 %}
 
 %%
